@@ -1,0 +1,10 @@
+server:
+  port: 8021
+
+spring:
+  application:
+    name: stock-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.59.1:8848

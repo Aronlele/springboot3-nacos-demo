@@ -1,0 +1,10 @@
+server:
+  port: 8020
+
+spring:
+  application:
+    name: order-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.59.1:8848
