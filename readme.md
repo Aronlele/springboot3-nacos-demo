@@ -51,7 +51,7 @@ SpringCloudAlibaba 版本： 2022.0.0.0
 </dependencyManagement>
 ```
 
-2. 添加服务发现依赖
+2.添加服务发现依赖
 
 ```xml
 <dependency>
@@ -77,7 +77,7 @@ SpringCloudAlibaba 版本： 2022.0.0.0
 </dependency>
 ```
 
-3. 添加其余相关演示依赖
+3.添加其余相关演示依赖
 
 ### 运行演示
 
