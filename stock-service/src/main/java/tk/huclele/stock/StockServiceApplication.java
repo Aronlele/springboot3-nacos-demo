@@ -1,4 +1,4 @@
-package com.fantasymz.order;
+package tk.huclele.stock;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,20 +9,23 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @author Messi Mei
+ * demo stock service app.
+ * 
+ * @author huclele
  * @version 1.0
  * @since 2023/10/30
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class OrderNacosApplication {
+public class StockServiceApplication {
     public static void main(String[] args) {
-        SpringApplication.run(OrderNacosApplication.class,args);
-    }
 
+        SpringApplication.run(StockServiceApplication.class,args);
+    }
     @Bean
     @LoadBalanced
     public RestTemplate restTemplate(RestTemplateBuilder restTemplateBuilder){
         return restTemplateBuilder.build();
     }
+
 }
