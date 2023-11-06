@@ -81,9 +81,15 @@ SpringCloudAlibaba 版本： 2022.0.0.0
 
 ### 运行演示
 
+订单服务启动日志：
+
 ![order-service-start-log](./readme-img/order-service-start-log.png)
 
+库存服务启动日志：
+
 ![stock-service-start-log](./readme-img/stock-service-start-log.png)
+
+订单新增请求日志：
 
 ![request-add-order](./readme-img/request-add-order.png)
 
